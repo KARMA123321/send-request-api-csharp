@@ -11,6 +11,9 @@
     <ItemGroup>
         <PackageReference Include="Castle.Windsor" Version="6.0.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2"/>
+        <PackageReference Include="Microsoft.OpenApi" Version="1.6.10" />
+        <PackageReference Include="Microsoft.OpenApi.Readers" Version="1.6.10" />
+        <PackageReference Include="NJsonSchema" Version="10.9.0" />
         <PackageReference Include="NUnit" Version="3.13.3"/>
         <PackageReference Include="NUnit3TestAdapter" Version="4.2.1"/>
         <PackageReference Include="NUnit.Analyzers" Version="3.3.0"/>

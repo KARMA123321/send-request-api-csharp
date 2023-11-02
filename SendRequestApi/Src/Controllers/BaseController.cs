@@ -2,6 +2,6 @@
 
 public abstract class BaseController
 {
-    private const string BaseUrl = "https://send-request.me/api";
+    private const string BaseUrl = Config.Url;
     protected readonly RestClient Client = new (new RestClientOptions(BaseUrl));
 }

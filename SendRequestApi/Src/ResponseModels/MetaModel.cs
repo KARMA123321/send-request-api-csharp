@@ -2,7 +2,7 @@
 
 namespace SendRequestApi.ResponseModels;
 
-public class MetaModel
+public class MetaModel : BaseModel
 {
     [JsonConstructor]
     public MetaModel(

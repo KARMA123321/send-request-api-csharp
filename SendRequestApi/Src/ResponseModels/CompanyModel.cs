@@ -2,7 +2,7 @@
 
 namespace SendRequestApi.ResponseModels;
 
-public class CompanyModel
+public class CompanyModel : BaseModel
 {
     [JsonConstructor]
     public CompanyModel(

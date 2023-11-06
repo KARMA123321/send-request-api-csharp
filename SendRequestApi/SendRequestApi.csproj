@@ -19,6 +19,7 @@
         <PackageReference Include="NUnit.Analyzers" Version="3.3.0"/>
         <PackageReference Include="coverlet.collector" Version="3.1.2"/>
         <PackageReference Include="RestSharp" Version="110.2.0" />
+        <PackageReference Include="s4fronov.ObjectsComparer" Version="1.5.0" />
     </ItemGroup>
 
 </Project>
